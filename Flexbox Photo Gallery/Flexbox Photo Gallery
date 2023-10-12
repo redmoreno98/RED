@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>css flexbox photo gallery</h1>
+    </header>
+    <div class="gallery">
+<img src="https://example.com/cat1.jpg" alt="Cute cat playing with a ball of yarn">
+<img src="https://example.com/cat2.jpg" alt="Sleeping cat in a cozy bed">
+<img src="https://example.com/cat3.jpg" alt="Curious cat looking out of a window">
+<img src="https://example.com/cat4.jpg" alt="Fluffy cat with bright blue eyes">
+<img src="https://example.com/cat5.jpg" alt="Adorable kitten with a playful expression">
+<img src="https://example.com/cat6.jpg" alt="Elegant cat sitting on a fence">
+<img src="https://example.com/cat7.jpg" alt="Two cats cuddling together">
+<img src="https://example.com/cat8.jpg" alt="Cat stretching and yawning">
+<img src="https://example.com/cat9.jpg" alt="Sneaky cat peeking out from behind a curtain">
+
+    </div>
+  </body>
+</html>
