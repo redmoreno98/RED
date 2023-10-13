@@ -1,0 +1,38 @@
+#main {
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #img-div {
+    margin: 20px 0;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #img-caption {
+    font-style: italic;
+  }
+  
+  #tribute-info {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: #0074cc;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
