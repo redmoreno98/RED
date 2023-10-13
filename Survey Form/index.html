@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out the following survey form:</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" placeholder="Enter your age" min="18" max="99" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dropdown">Select an option:</label>
+      <select id="dropdown" required>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Choose your favorite color:</label>
+      <input type="radio" name="color" value="red" required> Red
+      <input type="radio" name="color" value="blue" required> Blue
+    </div>
+
+    <div class="form-group">
+      <label>Select your interests:</label>
+      <input type="checkbox" name="interests" value="sports" required> Sports
+      <input type="checkbox" name="interests" value="music" required> Music
+      <input type="checkbox" name="interests" value="travel" required> Travel
+    </div>
+
+    <div class="form-group">
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" rows="4" placeholder="Enter your comments"></textarea>
+    </div>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
